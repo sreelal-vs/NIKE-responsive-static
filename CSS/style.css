@@ -1,0 +1,28 @@
+@font-face {
+    font-family:"Nike Futura";
+    src: url("https://www.nike.com/static/ncss/5.0/dotcom/fonts/Nike-Futura.woff2");
+}
+@font-face {
+    font-family: "Helvetica medium";
+    src: url("https://www.nike.com/static/ncss/5.0/dotcom/fonts/HelveticaNowTextMedium.woff2");
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url();
+}
+.header-top
+{
+    height: 36px;
+    background-color: rgb(245, 245, 245);
+    font-family: "Helvetica medium"
+}
+.header-top ul
+{
+    font-size:12px ;
+}
+.header-top ul li div
+{
+    height: 12px;
+    color: rgb(17, 17, 17);
+    opacity: 1;
+}
