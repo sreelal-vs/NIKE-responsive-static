@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: "Helvetica";
-    src: url();
+    src: url("https://www.nike.com/static/ncss/5.0/dotcom/fonts/HelveticaNowText.woff2");
 }
 .header-top
 {
@@ -25,4 +25,230 @@
     height: 12px;
     color: rgb(17, 17, 17);
     opacity: 1;
+}
+.navbar-toggler:focus
+{
+    box-shadow: 0 0 0 0;
+}
+nav div
+{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+}
+.search
+{
+    width: 168px;
+    background-color: rgb(245, 245, 245);
+    height: 36px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.search:hover
+{
+    background-color: rgba(202, 202, 202, 0.615);
+    transition: all 0.2s ease-in-out;
+
+}
+.search div
+{
+    background-color: rgb(245, 245, 245);
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+.search div:hover
+{
+    background-color: rgba(74, 74, 74, 0.456)
+}
+.search input
+{
+    width: 124px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+
+}
+.nav-link
+{
+    line-height: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+    font-family: "Helvetica medium";
+    color: rgb(17, 17, 17);
+}
+.header-bottom
+{
+    height: 75px;
+    background-color: rgb(245, 245, 245);
+    font-family: "Helvetica";
+    color: rgb(17, 17, 17);
+}
+.header-bottom p
+{
+    font-size: 16px;
+}
+.header-bottom span
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.section1 div
+{
+    margin-top: 36px;
+    font-family: "Helvetica";
+}
+.section1 div span
+{
+    font-size: 500%;
+    font-family: "Nike Futura";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.section1 a
+{
+    background-color: black;
+    color: white;
+    font-size:16px ;
+    font-family: "Helvetica medium";
+    transition: all 0.2s ease-in-out;
+    padding: 6px 16px;
+    
+}
+@media (min-width:1000px) {
+    .section1 div span
+    {
+        font-size: 76px;
+        line-height: 68px;
+    }
+}
+@media (max-width:999px)
+{
+    .section1 div span
+    {
+        font-size: 40px;
+        line-height: 35px;
+
+    }
+}
+.section1 a:hover
+{
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+.section2 .wrap
+{
+    max-width: 1300px;
+    width: 100%;
+    height: 450px;
+}
+.wrap div
+{
+    font-family: "Helvetica medium";
+    font-size: 20px;
+}
+.wrap div p
+{
+    margin-top: 36px;
+}
+.shoe-wrap,.section3 h3
+{
+    max-width: 1312px;
+    width: 100%;
+}
+.section3
+{
+    margin-top:84px ;
+    margin-bottom:84px ;
+}
+.section5 .sport-wrap,.section5 h3,.section6 h3
+{
+    max-width: 1330px;
+    width: 100%;
+}
+.section5 div div a
+{
+    position: absolute;
+    left:60px;
+    bottom: 30px;
+    font-size: 16px;
+    font-family: "Helvetica medium";
+}
+.Memberbenefit-wrap
+{
+    max-width: 1330px;
+    width: 100%;
+}
+.Memberbenefit-wrap div div
+{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    transform: translate(-35%,-5%);
+    font-family: "Helvetica medium";
+
+}
+.Memberbenefit-wrap div div p
+{
+    white-space: nowrap;
+}
+.section7
+{
+    font-family: "Helvetica medium";
+}
+.section7 dl
+{
+    max-width:200px;
+    width: 100%;
+}
+.section7 dl dd
+{
+    margin-bottom: 15px;
+    color: rgb(112, 112, 114);
+}
+main .accordion-button::after
+{
+    background-image: none;
+}
+main .accordion-button:not(.collapsed)::after
+{
+    background-image: none;
+}
+.accordion-button:not(.collapsed)
+{
+    background-color:white;
+}
+.accordion-button:focus
+{
+    box-shadow: none;
+}
+.accordion-body dl dd
+{
+    color: rgb(112, 112, 114);
+    font-family: "Helvetica medium";
+}
+footer  dd,.india-wrap,footer ul
+{
+    color: rgb(112, 112, 114);
+    font-family: "Helvetica medium";
+    font-size: 14px;
+}
+footer dt,footer .accordion-header
+{
+    font-family: "Helvetica medium";
+    font-size: 14px;
+}
+footer .accordion-item
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;  
+}
+footer .india-wrap2
+{
+    
+    border-bottom: solid 0.8px rgba(222, 226, 230, 1);
 }
